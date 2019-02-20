@@ -1,17 +1,20 @@
 {
-  "name": "Typescript boilerplate",
+  "name": "TimeSpentTimer",
   "version": "1.0.0",
-  "description": "Just a simple typescript webpack boilerplate.",
+  "description": "A timer to track the amount of time someone was on your page or element",
+  "private": true,
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --content-base ./public"
+    "start": "webpack-dev-server --open --watch"
   },
   "author": "",
   "license": "",
   "devDependencies": {
-    "ts-loader": "^0.7.2",
-    "typescript": "^1.7.5",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
   }
 }
